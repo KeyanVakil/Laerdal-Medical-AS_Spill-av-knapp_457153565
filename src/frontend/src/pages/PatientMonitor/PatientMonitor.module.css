@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.controls select {
+  min-width: 200px;
+}
+
+.monitorGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.vitalCard {
+  background: #0a0a0a;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  position: relative;
+}
+
+.vitalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.vitalName {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.vitalUnit {
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.vitalValue {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'Courier New', monospace;
+  text-align: right;
+}
+
+.waveformContainer {
+  height: 80px;
+  margin-top: 8px;
+}
+
+.scenarioPanel {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.scenarioBtn {
+  padding: 10px 20px;
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.scenarioBtn:hover {
+  border-color: var(--accent);
+}
+
+.scenarioBtnActive {
+  border-color: var(--accent);
+  background: rgba(59, 130, 246, 0.15);
+  color: var(--accent);
+}
+
+.alarmOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(239, 68, 68, 0.15);
+  pointer-events: none;
+  animation: alarmFlash 1s infinite;
+  z-index: 100;
+}
+
+@keyframes alarmFlash {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.scenarioLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--accent);
+}

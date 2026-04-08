@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.filters select {
+  min-width: 200px;
+}
+
+.sessionList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sessionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: var(--bg-primary);
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.sessionItem:hover {
+  border-color: var(--accent);
+}
+
+.sessionItemActive {
+  border-color: var(--accent);
+  background: rgba(59, 130, 246, 0.1);
+}
+
+.sessionDate {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.sessionScore {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.chartContainer {
+  height: 250px;
+  margin-top: 12px;
+}
+
+.statGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.stat {
+  padding: 12px;
+  background: var(--bg-primary);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.statValue {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.statLabel {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.suggestions {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.suggestion {
+  padding: 10px 14px;
+  background: var(--bg-primary);
+  border-radius: 6px;
+  font-size: 14px;
+  border-left: 3px solid var(--accent);
+}
+
+.trendBadge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}

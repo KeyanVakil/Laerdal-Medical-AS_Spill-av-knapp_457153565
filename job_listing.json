@@ -1,0 +1,57 @@
+{
+  "ad_id": "457153565",
+  "url": "https://www.finn.no/job/ad/457153565",
+  "title": "Spill av knapp",
+  "company": "Laerdal Medical AS",
+  "company_url": "",
+  "location": "",
+  "deadline": "2026-04-15",
+  "date_posted": "2026-03-31",
+  "description": "Legg til som favoritt.\nDele ikon\nSpill av knapp\nVideo\n10 Software Developers with real world impact  (Location: Stavanger or Copenhagen)\nLaerdal Medical AS\nFrist\n15.4.2026\nAnsettelsesform\nFast\nOne process, multiple teams, meaningful work!\nMake an impact that matters\nAt Laerdal, technology is a means to a bigger end: helping save lives. Our software and digital solutions are used by healthcare professionals, students, and first responders worldwide, supporting Laerdal’s goal to help save one million more lives, every year, by 2030. Do you believe strong engineering thrives in an environment of trust, collaboration, and learning? Then you are the perfect candidate for us!\nHow we build software at Laerdal\nYou’ll work in cross functional product teams where engineers have a real voice in both product direction and technical decisions. We prioritize solid engineering practices enabling teams to ship with confidence, maintain high quality, and continuously improve.\nWe’re hiring for multiple teams right now/ We have several exciting projects coming up\nWith three inspiring, cutting egde tech-projects underway, Laerdal offers a range of opportunities where you can bring your strengths to life and help create solutions that truly matter:\nTeam #1: RQI (Resuscitation Quality Improvement)\nElevate CPR performance through real-time measurement, feedback, and continuous learning at scale. Work on software connecting devices, learning flows, and analytics used globally by clinical staff.\nLocations: Stavanger, Norway or Copenhagen, Denmark\nTeam #2: Sim to Improve\nSim to Improve combines simulation, quality improvement methodology, and AI-driven insight to help hospitals uncover workflow challenges, test planned changes and implement safer systems of care.\nYou will help shape the platform’s architecture, performance, user experience, and scalability.\nLocation: Stavanger, Norway\nTeam #3: Simulated Instruments\nSimulated Instruments develops the software behind realistic, instrument-like experiences used in medical training and simulation. You will build digital components that interact with physical devices, provide responsive realtime feedback, and integrate with larger simulation systems.\nLocation: Stavanger, Norway\nWhat you’ll do\nCreate, build and evolve software from idea to production i\nMake an impact on Laerdal’s architecture and design\nPractice engineering hygiene: testing, code reviews, documentation, CI/CD\nContribute to improve quality, performance, and developer experience\nWho you are\nCurious and pragmatic. You value sustainable solutions over quick fixes, share knowledge freely, and contribute to an inclusive and highly skilled engineering environment.\nCore profile (standardized across teams, ~70–80%)\nProfessional software development experience (5+ years)\nEnthusiastic about modern development principles\nLove to deliver production codes\nEnjoy collaborating\nConscientious mindset to sustainability, risk and safety\nProficient in English (written and spoken)\nTechnologies you may work with\nBackend: C# / .NET\nCloud: Azure (security, observability, operations)\nFrontend: React\nMobile: React Native\nAPIs, integrations, databases, distributed systems\nWhat we offer:\nInteresting and meaningful work contributing to our mission\nOpportunities for personal and professional growth\nA great, diverse, inclusive, and international work environment\nInnovative and forward-thinking technology\nCompetitive compensation and benefits package\nFlexible work arrangements, an extensive wellbeing program with social, cultural and sports activities and benefits such as discounted public transport, wardrobe with towel service, company cabins, and more. (Norway specific).\nApply\nPlease send your CV and a brief motivation letter. In your application form:\nIndicate which team(s) you’re most interested in (RQI, Sim to Improve, Simulated Instruments)\nIndicate your preferred location (Stavanger or Copenhagen)\nProvide your years of experience per technology (e.g., C#/.NET, Azure, React, Mobile, Databases)\nShare any domain interests (education technology, clinical training, simulation hardware, data/AI)\nWe map roles to our career framework for clarity and fairness across teams. Our goal is a professional, fair and efficient experience, while giving you the freedom to explore the teams where you feel most at home and can use your strengths to the fullest.\nFor questions about the positions, please contact:\nMads Bak for RQI (mads.bak@laerdal.com)\nEva Skarstein for Sim to Improve (eva.skarstein@laerdal.com)\nMichel Eid for Simulated Instruments (michel.eid@laerdal.com)\nReady to apply?\nPlease register your application by 15.04.2026.\nWe look forward to hearing from you!\nPlease note that we use Semac background checks in our recruitment process.(Norway specific).\nFerdigheter\nApplication Programming Interfaces (APIs)\nAzure AD\nC# (Programmeringsspråk)\nCI/CD (Continuous Integration and Continuous Delivery)\nDatabase\nDokumentasjon\nKodegjennomgang\nModerne software-utvikling\nSektor\n:\nPrivat\nAntall stillinger\n:\n10\nSted\n:\nTanke Svilandsgate 30,\n4002\nStavanger\nBransje\n:\nMedisinsk utstyr og rekvisita\nStillingsfunksjon\n:\nBackend-utvikler\n,\nFront-end\n,\nUtvikler (generell)\nArbeidsspråk\n:\nEngelsk\nSpørsmål om stillingen\nKontaktperson\n:\nMichel Eid\nSend melding\nKontaktperson\n:\nMads Bak\nSend melding\nBli kjent med Laerdal Medical AS\nHjemmeside\nFølg firma\n1047 følger dette firmaet\nLaerdal Medical AS\nFlere stillinger\nPil til høyre\nLinkedIn\nFirkant med pil som peker oppover mot høyre\nFacebook\nFirkant med pil som peker oppover mot høyre\nWorking at Laerdal\nFirmaets beliggenhet\nTanke Svilandsgate 30,\n4002\nStavanger\nAnnonseinformasjon\nFINN-kode\n457153565\nSist endret\n31.3.2026, 11:27\nRapporter annonse",
+  "json_ld": null,
+  "apply_method": {
+    "type": "unknown",
+    "possible_email": "mads.bak@laerdal.com",
+    "url": ""
+  },
+  "analysis": {
+    "is_software_role": true,
+    "role_type": "software_engineer",
+    "english_friendly": 1.0,
+    "sponsorship_likely": 0.7,
+    "practical_viability": 0.85,
+    "tech_stack": [
+      "C#",
+      ".NET",
+      "Azure",
+      "React",
+      "React Native",
+      "CI/CD",
+      "REST APIs",
+      "Distributed Systems",
+      "Databases"
+    ],
+    "required_skills": [
+      "5+ years professional software development",
+      "C#/.NET",
+      "Azure",
+      "React",
+      "English proficiency",
+      "CI/CD",
+      "Code reviews",
+      "Testing"
+    ],
+    "nice_to_have_skills": [
+      "React Native",
+      "Medical/healthcare domain knowledge",
+      "Simulation systems",
+      "Real-time systems",
+      "Azure AD"
+    ],
+    "experience_level": "senior",
+    "requires_degree": "none",
+    "summary": "Laerdal Medical is hiring 10 software developers across 3 product teams in Stavanger (Norway) and Copenhagen (Denmark). The teams build healthcare simulation and CPR training software used globally. The stack is C#/.NET backend, React/React Native frontend, and Azure cloud. The role is hands-on engineering in cross-functional product teams with strong engineering culture (CI/CD, code reviews, testing). The ad is written in English, the working language is explicitly listed as English, and the mission (saving lives through technology) is compelling. Deadline is April 15, 2026.",
+    "why_foreigner_friendly": "Excellent fit for an English-speaking foreigner. The job ad itself is written in English, the Arbeidsspråk field explicitly states 'Engelsk', and the role targets an international candidate pool (locations in both Norway and Denmark). Laerdal Medical is a well-established global company (founded 1955, significant international operations) with the HR infrastructure to handle work permits. No Norwegian language requirement anywhere in the listing. The tech stack (C#, React, Azure) is entirely international. 10 open positions signals serious hiring intent rather than a token posting."
+  },
+  "foreigner_score": 0.85
+}

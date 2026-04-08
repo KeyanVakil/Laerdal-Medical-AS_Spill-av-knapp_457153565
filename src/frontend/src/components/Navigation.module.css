@@ -1,0 +1,57 @@
+.nav {
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  gap: 32px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 4px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.link:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+  color: var(--text-primary);
+}
+
+.active {
+  background-color: rgba(59, 130, 246, 0.15);
+  color: var(--accent);
+}
+
+.icon {
+  font-size: 16px;
+}
