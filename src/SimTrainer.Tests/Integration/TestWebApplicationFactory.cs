@@ -17,10 +17,12 @@ public class TestWebApplicationFactory : WebApplicationFactory<Program>
                 d => d.ServiceType == typeof(DbContextOptions<SimTrainerDbContext>));
             if (descriptor != null) services.Remove(descriptor);
 
-            // Use in-memory database for tests
+            // Use in-memory database for tests (name captured outside lambda
+            // so all scopes share the same database instance)
+            var dbName = "TestDb_" + Guid.NewGuid();
             services.AddDbContext<SimTrainerDbContext>(options =>
             {
-                options.UseInMemoryDatabase("TestDb_" + Guid.NewGuid());
+                options.UseInMemoryDatabase(dbName);
             });
         });
 

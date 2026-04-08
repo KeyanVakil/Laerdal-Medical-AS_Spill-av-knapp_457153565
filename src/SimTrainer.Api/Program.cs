@@ -48,25 +48,33 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Auto-apply migrations on startup
+// Auto-apply migrations on startup (skip for in-memory databases used in tests)
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<SimTrainerDbContext>();
     var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
 
-    for (var retries = 0; retries < 30; retries++)
+    if (db.Database.IsRelational())
     {
-        try
+        for (var retries = 0; retries < 30; retries++)
         {
-            db.Database.Migrate();
-            logger.LogInformation("Database migrated successfully");
-            break;
+            try
+            {
+                db.Database.Migrate();
+                logger.LogInformation("Database migrated successfully");
+                break;
+            }
+            catch (Exception ex)
+            {
+                logger.LogWarning("Database not ready (attempt {Attempt}): {Message}", retries + 1, ex.Message);
+                Thread.Sleep(2000);
+            }
         }
-        catch (Exception ex)
-        {
-            logger.LogWarning("Database not ready (attempt {Attempt}): {Message}", retries + 1, ex.Message);
-            Thread.Sleep(2000);
-        }
+    }
+    else
+    {
+        db.Database.EnsureCreated();
+        logger.LogInformation("In-memory database created");
     }
 }
 
