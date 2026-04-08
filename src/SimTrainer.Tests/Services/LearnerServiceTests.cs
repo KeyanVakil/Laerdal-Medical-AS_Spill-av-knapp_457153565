@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SimTrainer.Api.Infrastructure;
 using SimTrainer.Api.Services;
+using Xunit;
 
 namespace SimTrainer.Tests.Services;
 

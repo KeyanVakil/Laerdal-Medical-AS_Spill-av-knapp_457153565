@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using SimTrainer.Api.Domain.Enums;
 using SimTrainer.Api.Infrastructure;
 using SimTrainer.Api.Services;
+using Xunit;
 
 namespace SimTrainer.Tests.Services;
 

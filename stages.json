@@ -2,5 +2,6 @@
   "prd": "completed",
   "implementation": "completed",
   "quality_check": "completed",
-  "github_publish": "in_progress"
+  "github_publish": "completed",
+  "submodule_register": "in_progress"
 }

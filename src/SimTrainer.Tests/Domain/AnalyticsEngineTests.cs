@@ -1,5 +1,6 @@
 using SimTrainer.Api.Domain.Entities;
 using SimTrainer.Api.Domain.Scoring;
+using Xunit;
 
 namespace SimTrainer.Tests.Domain;
 
