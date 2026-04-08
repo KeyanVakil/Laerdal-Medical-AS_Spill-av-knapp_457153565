@@ -4,6 +4,8 @@ A full-stack medical simulation and training analytics platform that provides re
 
 [![CI](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
 
+**Live Demo:** [simtrainer-web.ashypebble-e8f32780.norwayeast.azurecontainerapps.io](https://simtrainer-web.ashypebble-e8f32780.norwayeast.azurecontainerapps.io) *(Azure Container Apps, Norway East region -- available during Norwegian business hours)*
+
 **Job Listing:** [Laerdal Medical - Spill av knapp](https://www.finn.no/job/ad/457153565)
 
 ## Skills Demonstrated
