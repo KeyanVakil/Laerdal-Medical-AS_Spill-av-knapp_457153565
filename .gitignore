@@ -20,6 +20,7 @@ dist/
 ## Environment
 .env
 *.env.local
+appsettings.Development.json
 
 ## OS
 .DS_Store
